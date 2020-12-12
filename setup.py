@@ -2,14 +2,14 @@ from distutils.core import setup
 
 setup(
 	name='bci_lib',
-	packages=['bci_lib'],
-	version='0.0.7',
+	packages=['bci_lib', 'Stages', 'Classification', 'FeatureExtraction', 'LoadData', 'Preprocess'],
+	version='0.0.8',
 	license='MIT',
 	description='A useful and easy to use tool for building bci pipelines.',
 	author='Sahand Sadeghpour',
 	author_email='sahand.2k.ss@gmail.com',
 	url='https://github.com/SahandSadeghpour/bci_lib',
-	download_url='https://github.com/SahandSadeghpour/bci_lib/archive/v0.0.7.tar.gz',
+	download_url='https://github.com/SahandSadeghpour/bci_lib/archive/v0.0.8.tar.gz',
 	keywords=['bci', 'pipelines', 'preprocessing', 'classification'],
 	install_requires=[
 		'mne~=0.20.4',
