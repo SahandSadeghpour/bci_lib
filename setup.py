@@ -3,13 +3,13 @@ from distutils.core import setup
 setup(
 	name='bci_lib',
 	packages=['bci_lib'],
-	version='0.0.6',
+	version='0.0.7',
 	license='MIT',
 	description='A useful and easy to use tool for building bci pipelines.',
 	author='Sahand Sadeghpour',
 	author_email='sahand.2k.ss@gmail.com',
 	url='https://github.com/SahandSadeghpour/bci_lib',
-	download_url='https://github.com/SahandSadeghpour/bci_lib/archive/v0.0.6.tar.gz',
+	download_url='https://github.com/SahandSadeghpour/bci_lib/archive/v0.0.7.tar.gz',
 	keywords=['bci', 'pipelines', 'preprocessing', 'classification'],
 	install_requires=[
 		'mne~=0.20.4',
@@ -21,7 +21,8 @@ setup(
 	],
 	classifiers=[
 		'Development Status :: 3 - Alpha',
-		'Intended Audience :: Developers, Researchers',      # Define that your audience are developers
+		'Intended Audience :: Developers',
+		'Intended Audience :: Science/Research',
 	    'Topic :: Software Development :: Build Tools',
 	    'License :: OSI Approved :: MIT License',
 	    'Programming Language :: Python :: 3',
